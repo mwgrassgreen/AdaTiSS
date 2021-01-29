@@ -16,6 +16,6 @@ ada.z --- score for tiss.abd
 
 pop.fit.mx --- population fitted info (Note: to take another care on the genes with 'pi0.hat' <= 0.5)
 
-'source('AdaTiSS_mw_20210128.R')'
+`source('AdaTiSS_fn.R')`
 
-'adatiss.result = AdaTiSS(X, tiss.abd)'
+`adatiss.result = AdaTiSS(X, tiss.abd)`
