@@ -1,4 +1,6 @@
 # AdaTiSS
+AdaTiSS is a R package to calculate tissue specificity scores, analyzed in the paper "AdaTiSS: A Novel Data-Adaptive Robust Method for Quantifying Tissue Specificity Scores".
+
 Please contact Meng Wang by email <mengw1@stanford.edu> for questions. 
 
 ## Usage
