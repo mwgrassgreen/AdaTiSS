@@ -8,7 +8,7 @@ input:
 
 X --- expression matrix (prefered in log scale, after preprocessing steps)
 
-tiss.abd --- tissue level abundance
+tiss.abd --- tissue level abundance (default: NULL)
        
 output: 
 
