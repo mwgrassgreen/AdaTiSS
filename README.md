@@ -3,6 +3,9 @@ AdaTiSS is a R package to calculate tissue specificity scores, analyzed in the p
 
 Please contact Meng Wang by email <mengw1@stanford.edu> for questions. 
 
+## Dependence
+* [R](https://www.r-project.org/) (version >= 3.3.0)
+
 ## Usage
 input: 
 
@@ -18,6 +21,6 @@ ada.z --- score for tiss.abd
 
 pop.fit.mx --- population fitted info (Note: to take another care on the genes with 'pi0.hat' <= 0.5)
 
-`source('AdaTiSS_fn.R')`
+`source('./R/AdaTiSS_fn.R')`
 
 `adatiss.result = AdaTiSS(X, tiss.abd)`
