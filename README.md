@@ -9,7 +9,7 @@ Please contact Meng Wang by email <mengw1@stanford.edu> for questions.
 ## Usage
 input: 
 
-X --- expression matrix (prefered in log scale, after preprocessing steps)
+X --- expression matrix with rows of proteins and columns of samples (prefered in log scale, after preprocessing steps)
 
 tiss.abd --- tissue level abundance (default: NULL)
        
