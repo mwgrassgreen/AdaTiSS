@@ -1,5 +1,5 @@
 # AdaTiSS
-AdaTiSS is a R package to calculate tissue specificity scores, analyzed in the paper ["AdaTiSS: A Novel Data-Adaptive Robust Method for Quantifying Tissue Specificity Scores"] (https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab460/6306407?login=true), published in Bioinformatics, 2021.
+AdaTiSS is a R package to calculate tissue specificity scores, analyzed in the paper [AdaTiSS: A Novel Data-Adaptive Robust Method for Quantifying Tissue Specificity Scores](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab460/6306407?login=true), published in Bioinformatics, 2021.
 
 Please contact Meng Wang by email <mengw1@stanford.edu> for questions. 
 
@@ -7,9 +7,11 @@ Please contact Meng Wang by email <mengw1@stanford.edu> for questions.
 * [R](https://www.r-project.org/) (version >= 3.3.0)
 
 ## Usage
-To illustrate the usage of our package, we took a small set of gene expression in raw TPM from [GTEx project] (https://gtexportal.org/home/datasets) in version 7 as an example.
+To illustrate the usage of our package, we took a small set of gene expression in raw TPM from [GTEx project](https://gtexportal.org/home/datasets) in version 7 as an example.
 
 The data folder includes raw TPM expression for 2000 genes from 181 samples across 32 tissues and a pheonotype info of the tissue type for each sample.
+
+To call the AdaTiSS source function
 
 `source('./R/AdaTiSS_fn.R')`
 
@@ -35,9 +37,7 @@ To apply AdaTiSS (for more options, see the file 'AdaTiSS_fn.R')
 
 Output: 
 
-sample normalized scores
-
-`head(result$ada.s)`
+`head(result$ada.s)` --- sample normalized scores
 
 tissue specificity scores
 
