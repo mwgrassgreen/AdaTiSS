@@ -39,10 +39,7 @@ Output:
 
 `head(result$ada.s)` --- sample normalized scores
 
-tissue specificity scores
+`head(result$ada.z)` --- tissue specificity scores
 
-`head(result$ada.z)`
+`head(result$pop.fit.mx)` --- population fitting info
 
-population fitting info
-
-`head(result$pop.fit.mx)`
