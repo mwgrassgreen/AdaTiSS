@@ -25,7 +25,7 @@ To preprocess raw data and obtain filtered gene expression in log scale (for mor
 
 To load phenotype data
 
-`p.dat = read.csv('../data/sample_phenotype.csv')`
+`p.dat = read.csv('./data/sample_phenotype.csv')`
 
 To obtain gene expression in tissue level
 
