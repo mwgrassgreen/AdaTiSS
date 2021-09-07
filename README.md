@@ -18,42 +18,31 @@ To load expression data
 `dat.rna = readRDS(file='./data/raw_tpm_expression.rds')`
 
 To preprocess raw data and obtain filtered gene expression in log scale (for more options, see the file 'AdaTiSS_fn.R')
+
 `X = preproc.filter.fn (dat.rna, dat.type = "TPM or RPKM", proc.zero = 'ceiled to 1', filter.col.prp = 1, exp.thres=1)`
 
 To load phenotype data
+
 `p.dat = read.csv('../data/sample_phenotype.csv')`
 
 To obtain gene expression in tissue level
+
 `tiss.abd = tiss.abd.fn(X, p.dat)`
 
 To apply AdaTiSS (for more options, see the file 'AdaTiSS_fn.R')
+
 `result = AdaTiSS(X, tiss.abd=tiss.abd, adjust=TRUE, adjust.opt=0)`
 
 Output: 
 
 sample normalized scores
+
 `head(result$ada.s)`
 
 tissue specificity scores
+
 `head(result$ada.z)`
 
 population fitting info
+
 `head(result$pop.fit.mx)`
-
-input: 
-
-X --- expression matrix with rows of proteins and columns of samples (prefered in log scale, after preprocessing steps)
-
-tiss.abd --- tissue level abundance (default: NULL)
-       
-output: 
-
-ada.s --- score for X
-
-ada.z --- score for tiss.abd
-
-pop.fit.mx --- population fitted info (Note: to take another care on the genes with 'pi0.hat' <= 0.5)
-
-`source('./R/AdaTiSS_fn.R')`
-
-`adatiss.result = AdaTiSS(X, tiss.abd)`
