@@ -1,5 +1,5 @@
 # AdaTiSS
-AdaTiSS is a R package to calculate tissue specificity scores, analyzed in the paper [AdaTiSS: A Novel Data-Adaptive Robust Method for Quantifying Tissue Specificity Scores](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab460/6306407?login=true), published in Bioinformatics, 2021.
+AdaTiSS is a R package to calculate tissue specificity scores, developed in the paper [AdaTiSS: A Novel Data-Adaptive Robust Method for Quantifying Tissue Specificity Scores](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btab460/6306407?login=true), published in Bioinformatics, 2021.
 
 Please contact Meng Wang by email <mengw1@stanford.edu> for questions. 
 
@@ -31,7 +31,7 @@ To obtain gene expression in tissue level
 
 `tiss.abd = tiss.abd.fn(X, p.dat)`
 
-To apply AdaTiSS (for more options, see the file 'AdaTiSS_fn.R')
+To call AdaTiSS (for more options, see the file 'AdaTiSS_fn.R')
 
 `result = AdaTiSS(X, tiss.abd=tiss.abd, adjust=TRUE, adjust.opt=0)`
 
