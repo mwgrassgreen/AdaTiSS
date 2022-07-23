@@ -43,3 +43,7 @@ Output:
 
 `head(result$pop.fit.mx)` --- population fitting info
 
+## More information
+For more statistical analysis, to check our [AdaReg](https://github.com/mwgrassgreen/AdaReg) package.
+
+For a related robust normalization work, to check our [RobNorm](https://github.com/mwgrassgreen/RobNorm) package.
