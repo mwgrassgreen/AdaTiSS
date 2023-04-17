@@ -21,7 +21,7 @@ To load expression data
 
 To preprocess raw data and obtain filtered gene expression in log scale (for more options, see the file 'AdaTiSS_fn.R')
 
-`X = preproc.filter.fn (dat.rna, dat.type = "TPM or RPKM", proc.zero = 'ceiled to 1', filter.col.prp = 1, exp.thres=1)`
+`X = preproc.filter.fn (dat.rna, dat.type = "TPM or RPKM", proc.zero = "perturbed by a small value", filter.col.prp = 1, exp.thres=1)`
 
 To load phenotype data
 
